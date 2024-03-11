@@ -1,0 +1,77 @@
+body
+{
+    font-weight: 400;
+    font-family: arial, calibri, lato;
+    font-size: 15px;
+    line-height: 2.2em;
+    color: #818181;
+    margin: 0;
+}
+
+header
+{
+    background-color: #f4511e;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 63px;
+    color: #303030;
+    padding: 15px;
+    color: white
+    
+}
+
+h2
+{
+    font-size: 24px;
+    text-transform: uppercase; 
+    color: #303030;
+    font-weight: 600;
+}
+
+h2, p
+{
+text-align: center;
+}
+
+section, footer
+{
+    margin: 40px;
+}
+
+table/*TAG PARA AUMENTAR a largura da tabela*/
+{
+width: 100%;
+}
+
+table, td
+{
+color:black;
+padding: 5px ;
+}
+
+table tr:nth-child(even) /*Pseudo-classe que serve para alterar um elemento específico, sendo par ou ímpar o resultado.*/
+/*Nesse caso é par*/
+{
+    background-color:#e9e9e9;
+}
+
+table tr:nth-child(odd)
+/*Nesse caso é ímpar*/
+{
+    background-color: #bdbdbd ;
+}
+
+table, thead, th
+{
+    background-color:#f4511e ;
+    color: white
+}
+
+table, tfoot
+{
+    background-color: black;
+   
+}
